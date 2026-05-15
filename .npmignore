@@ -1,0 +1,37 @@
+# Source — only ship the compiled dist/
+src/
+*.test.ts
+*.test.tsx
+
+# Config
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Dev artifacts
+node_modules/
+coverage/
+.nyc_output/
+.turbo/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Repo / CI
+.gitignore
+.github/
+.gitattributes
+.git/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
